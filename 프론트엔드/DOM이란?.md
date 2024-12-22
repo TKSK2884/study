@@ -11,8 +11,8 @@
 
 1. 트리 구조
 
--   DOM은 문서를 **노드(Node)**들의 계층적 트리 구조로 표현함
--   HTML 문서의 각 요소(예: <html>, <head>, <body>)는 DOM에서 하나의 노드로 나타남
+-   DOM은 문서를 노드(Node)들의 계층적 트리 구조로 표현함
+-   HTML 문서의 각 요소(예: `<html>, <head>, <body>`)는 DOM에서 하나의 노드로 나타남
 
 예시)
 
@@ -38,7 +38,7 @@
 2. 노드(Node)
    DOM의 각 구성 요소를 나타내며, 다음과 같은 유형이 있음
 
--   요소 노드(Element Node): HTML 태그를 나타냄(예: <div>, <p>)
+-   요소 노드(Element Node): HTML 태그를 나타냄(예: `<div>`, `<p>`)
 -   텍스트 노드(Text Node): 요소 내부의 텍스트를 나타냄(예: Hello, World!)
 -   속성 노드(Attribute Node): Html태그의 속성을 나타냄(예: class="example")
 -   문서 노드(Document Node): 전체 문서를 나타내는 최상위 노드
